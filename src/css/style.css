@@ -92,33 +92,38 @@ h2,
 }
 
 .tabela-produtos-container {
-    margin: 0 auto;
-    width: 80%;
-    overflow: hidden;
+    text-align: center;
 }
 
 .tabela-produtos {
     margin: 0 auto;
     color: #FFA500;
-    width: 20px;
-    height: 100px;
+    border-collapse: collapse;
+    width: 10%;
+    background-color: #FFFFFF;
+}
+
+.tabela-produtos td {
+    border: #000000 1px solid;
+}
+
+.tabela-produtos td:not(:last-child) {
+    border-bottom: #000000 1px solid;
 }
 
 .tabela-produtos img {
-    height: 300px;
     display: block;
-    margin: 10px auto;
-    border-radius: 10px;
+    margin: 0 auto;
+    width: 300px;
+    align-items: center;
 }
 
-.body {
-    margin: 0;
-}
 
 .faixa-laranja {
     background-color: #FFA500;
     height: 30px;
     width: 100%;
+
 }
 
 .footer-centralizado {
@@ -127,4 +132,19 @@ h2,
     background-color: #FFA500;
     height: 100px;
     width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+    color: #000000;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
 }
